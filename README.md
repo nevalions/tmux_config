@@ -2,9 +2,10 @@
 ```
     cd
     unzip main.zip
-    cd main/tmux_config
-    mv .tmux.conf.local ~/.tmux.conf.local
-    mv .tmux.conf ~/.tmux.conf
+    mv main/tmux_config/.tmux.conf.local ~/.tmux.conf.local
+    mv main/tmux_config/.tmux.conf ~/.tmux.conf
+    rm main.zip
+    rm -rf main
 ```
 Reload config in tmux prefix + r
 
