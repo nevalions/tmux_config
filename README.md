@@ -9,7 +9,7 @@ cp -t ~/ tmux_config/.tmux.conf.local tmux_config/.tmux.conf
 ```
 ```
 cd
-git clone https://github.com/nevalions/tmux_config.git
+git clone git@github.com:nevalions/tmux_config.git
 ln -s -f tmux_config/.tmux.conf ~/.tmux.conf
 cp tmux_config/.tmux.conf.local ~/.tmux.conf.local
 ```
