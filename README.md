@@ -5,7 +5,7 @@ outside of tmux, $TERM must be set to xterm-256color
 ```
 cd
 git clone https://github.com/nevalions/tmux_config.git
-mv -t ~/ tmux_config/.tmux.conf.local tmux_config/.tmux.conf
+cp -t ~/ tmux_config/.tmux.conf.local tmux_config/.tmux.conf
 ```
 Reload config in tmux prefix + r
 
