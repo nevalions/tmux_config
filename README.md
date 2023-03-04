@@ -7,8 +7,8 @@ outside of tmux, $TERM must be set to xterm-256color
     mkdir tmux_config
     cd tmux_config
     git clone https://github.com/nevalions/tmux_config.git
-    mv .tmux.conf.local ~/.tmux.conf.local
-    mv .tmux.conf ~/.tmux.conf
+    mv tmux_config/.tmux.conf.local ~/.tmux.conf.local
+    mv tmux_config/.tmux.conf ~/.tmux.conf
 ```
 Reload config in tmux prefix + r
 
