@@ -13,6 +13,11 @@ git clone git@github.com:nevalions/tmux_config.git
 ln -s -f tmux_config/.tmux.conf ~/.tmux.conf
 cp tmux_config/.tmux.conf.local ~/.tmux.conf.local
 ```
+Install tmux plugin manager
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+installed plugins for saving sessions tmux-continuum, Tmux Resurrect
+```
 Reload config in tmux prefix + r
 
 ```
