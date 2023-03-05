@@ -17,6 +17,7 @@ Install tmux plugin manager
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 installed plugins for saving sessions tmux-continuum, Tmux Resurrect
+autosave tmux session after 5min or prefix Ctr+s
 ```
 Reload config in tmux prefix + r
 
